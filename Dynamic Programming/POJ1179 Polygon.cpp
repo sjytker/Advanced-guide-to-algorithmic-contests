@@ -48,7 +48,7 @@ int main() {
             a.clear();
             mx = fx[i][i + n - 1];
         } 
-        if (fx[i][i + n - 1] == mx) a.push_back(i - 1);
+        if (fx[i][i + n - 1] == mx) a.push_back(i);
     }
     cout << mx << endl;
     for (auto &i : a) cout << i << ' ';
